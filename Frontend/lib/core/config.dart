@@ -6,5 +6,5 @@
 ///
 /// Example: 'https://spendwise.vercel.app/api'
 class AppConfig {
-  static const String baseUrl = 'https://YOUR_APP.vercel.app/api';
+  static const String baseUrl = 'https://spendwise-five-chi.vercel.app/api';
 }
