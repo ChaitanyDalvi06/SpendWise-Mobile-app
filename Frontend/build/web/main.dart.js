@@ -8712,7 +8712,7 @@ ab2:function ab2(a){this.a=a},
 ab3:function ab3(){},
 ab5:function ab5(a){this.a=a},
 ab6:function ab6(){},
-adO(a){var s=B.hM("https://spendwise-five-chi.vercel.app/api/expenses"+a,0,null)
+adO(a){var s=B.hM("http://localhost:3000/api/expenses"+a,0,null)
 return s},
 adM(){var s,r=t.N
 r=B.u(r,r)
@@ -34000,7 +34000,7 @@ abi(a,b,c){var s=0,r=B.R(t.P),q,p,o
 var $async$abi=B.S(function(d,e){if(d===1)return B.O(e,r)
 for(;;)switch(s){case 0:p=t.N
 s=3
-return B.K(B.aSa(B.hM("https://spendwise-five-chi.vercel.app/api/auth/register",0,null),A.ca.yF(B.aq(["name",b,"email",a,"password",c],p,p),null),A.Jd),$async$abi)
+return B.K(B.aSa(B.hM("http://localhost:3000/api/auth/register",0,null),A.ca.yF(B.aq(["name",b,"email",a,"password",c],p,p),null),A.Jd),$async$abi)
 case 3:o=e
 q=t.P.a(A.ca.yp(B.a9Z(B.a9K(o.e)).dr(o.w),null))
 s=1
@@ -34011,7 +34011,7 @@ abh(a,b){var s=0,r=B.R(t.P),q,p,o
 var $async$abh=B.S(function(c,d){if(c===1)return B.O(d,r)
 for(;;)switch(s){case 0:p=t.N
 s=3
-return B.K(B.aSa(B.hM("https://spendwise-five-chi.vercel.app/api/auth/login",0,null),A.ca.yF(B.aq(["email",a,"password",b],p,p),null),A.Jd),$async$abh)
+return B.K(B.aSa(B.hM("http://localhost:3000/api/auth/login",0,null),A.ca.yF(B.aq(["email",a,"password",b],p,p),null),A.Jd),$async$abh)
 case 3:o=d
 q=t.P.a(A.ca.yp(B.a9Z(B.a9K(o.e)).dr(o.w),null))
 s=1
