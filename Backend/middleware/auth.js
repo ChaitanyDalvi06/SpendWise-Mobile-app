@@ -1,6 +1,10 @@
 const jwt = require('jsonwebtoken');
 
-const SECRET = process.env.JWT_SECRET || 'spendwise_jwt_secret_2026';
+if (!process.env.JWT_SECRET) {
+  console.error('❌ JWT_SECRET environment variable is required');
+  process.exit(1);
+}
+const SECRET = process.env.JWT_SECRET;
 
 /**
  * Express middleware that validates the JWT sent in the

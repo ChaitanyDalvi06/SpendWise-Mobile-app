@@ -2,10 +2,12 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../models/expense.dart';
 
+import '../core/config.dart';
+
 /// All data is persisted via the Node.js / Supabase backend.
-/// Change [_baseUrl] to point to your server if it runs on a different host/port.
+/// Change [AppConfig.baseUrl] in lib/core/config.dart to point to your server.
 class DatabaseHelper {
-  static const String _baseUrl = 'http://localhost:3000/api/expenses';
+  static String get _baseUrl => '${AppConfig.baseUrl}/expenses';
 
   // ── Auth token (set after login via AuthProvider) ─────────────────────────
   static String? _token;

@@ -4,7 +4,11 @@ const bcrypt   = require('bcryptjs');
 const jwt      = require('jsonwebtoken');
 const supabase = require('../db');
 
-const SECRET = process.env.JWT_SECRET || 'spendwise_jwt_secret_2026';
+if (!process.env.JWT_SECRET) {
+  console.error('❌ JWT_SECRET environment variable is required');
+  process.exit(1);
+}
+const SECRET = process.env.JWT_SECRET;
 
 // POST /api/auth/register
 router.post('/register', async (req, res) => {

@@ -1,8 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import '../core/config.dart';
 
 class AuthService {
-  static const String _baseUrl = 'http://localhost:3000/api/auth';
+  static String get _baseUrl => '${AppConfig.baseUrl}/auth';
   static const _headers = {'Content-Type': 'application/json'};
 
   static Future<Map<String, dynamic>> register({
