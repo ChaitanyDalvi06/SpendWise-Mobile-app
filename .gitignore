@@ -4,9 +4,8 @@ Backend/node_modules/
 
 # Flutter
 Frontend/.dart_tool/
-Frontend/build/
-# Include the web build output so Vercel can serve it as static files
-!Frontend/build/web/
+Frontend/build/*
+!Frontend/build/web
 Frontend/.flutter-plugins
 Frontend/.flutter-plugins-dependencies
 Frontend/pubspec.lock
