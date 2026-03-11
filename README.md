@@ -238,13 +238,20 @@ expenses
 
 <img width="300" height="710" alt="image" src="https://github.com/user-attachments/assets/2e850eca-1596-4bba-9a56-13c48e706fa0" />
 
+<br>
+<br>
+<br>
+
+
 <img width="300" height="710" alt="Screenshot 2026-03-11 at 9 27 42 PM" src="https://github.com/user-attachments/assets/f514e696-6bf5-4f3d-89fb-e68b5b4208a9" />
 
+
+<img width="300" height="710" alt="Screenshot 2026-03-11 at 9 18 12 PM" src="https://github.com/user-attachments/assets/a4ef7ecd-46ed-4284-93e4-c5fa9fcf0ad8" />
+
 <br>
 <br>
 <br>
 
-<img width="300" height="710" alt="Screenshot 2026-03-11 at 9 18 12 PM" src="https://github.com/user-attachments/assets/a4ef7ecd-46ed-4284-93e4-c5fa9fcf0ad8" />
 
 <img width="300" height="710" alt="Screenshot 2026-03-11 at 9 21 47 PM" src="https://github.com/user-attachments/assets/d54e2401-5882-44fd-935d-09d87f0a7cb7" />
 
@@ -257,6 +264,11 @@ expenses
 <img width="300" height="710" alt="image" src="https://github.com/user-attachments/assets/52a066cb-47ec-46f9-a8d0-fee48140f321" />
 
 <img width="300" height="710" alt="Screenshot 2026-03-11 at 9 25 00 PM" src="https://github.com/user-attachments/assets/4767e751-355e-460e-8bad-a6da9a85c66d" />
+
+<br>
+<br>
+<br>
+
 
 <img width="300" height="710" alt="Screenshot 2026-03-11 at 9 25 27 PM" src="https://github.com/user-attachments/assets/50c84880-32f8-4346-9d0a-fe4c20c3fc48" />
 
