@@ -224,7 +224,7 @@ expenses
 <h1 align="center">🚀 Live Demo</h1>
 
 <p align="center">
-  <a href="https://spend-wise-mobile-app.vercel.app/" target="_blank">
+  <a href="https://spend-wise-mobile-app.vercel.app/">
     https://spend-wise-mobile-app.vercel.app/
   </a>
 </p>
